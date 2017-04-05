@@ -1,4 +1,3 @@
 dev-db/mysql-init-scripts 2.0-r2: Gentoo MySQL init scripts
 dev-lang/php 7.1.4_rc1: The PHP language runtime engine
-net-nntp/sabnzbd 1.2.0 1.2.0-r1: Binary newsgrabber in Python, with web-interface. Successor of old SABnzbd project
 www-servers/nginx 1.11.13: Robust, small and high performance http and reverse proxy server

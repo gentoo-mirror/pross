@@ -23,10 +23,6 @@ dev-lang/php:xmlreader - Enable XMLReader support
 dev-lang/php:xmlwriter - Enable XMLWriter support
 dev-lang/php:xslt - Enable the XSL extension
 dev-lang/php:zip - Enable ZIP file support
-net-nntp/sabnzbd:rar - Add support for extracting rar files
-net-nntp/sabnzbd:ssl - Add support for SSL web interface
-net-nntp/sabnzbd:unzip - Add support for extracting zip files
-net-nntp/sabnzbd:yenc - Use yenc to speed up nntp encoding and decoding
 www-servers/nginx:aio - Enables file AIO support
 www-servers/nginx:http - Enable HTTP core support
 www-servers/nginx:http-cache - Enable HTTP cache support
