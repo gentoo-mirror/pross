@@ -2,22 +2,23 @@
 
 EAPI="6"
 ETYPE="sources"
-K_WANT_GENPATCHES="base extras"
+KEYWORDS="~amd64 ~x86"
 
+HOMEPAGE="https://dev.gentoo.org/~mpagano/genpatches/
+        http://kernel.kolivas.org/"
+
+IUSE="experimental"
+
+K_WANT_GENPATCHES="base extras experimental"
 K_GENPATCHES_VER="15"
 K_SECURITY_UNSUPPORTED="1"
-
 CK_EXTRAVERSION="ck2"
 
 inherit kernel-2
 detect_version
 detect_arch
 
-KEYWORDS="~amd64 ~x86"
-HOMEPAGE="https://dev.gentoo.org/~mpagano/genpatches/
-	http://kernel.kolivas.org/"
-
-DESCRIPTION="Gentoo's genpatches for Linux ${K_BRANCH_ID}, with Con Kolivas' MuQSS process scheduler and patchset"
+DESCRIPTION="Gentoo's genpatches for Linux ${K_BRANCH_ID}, with Con Kolivas' MuQSS scheduler and patchset"
 
 K_BRANCH_ID="${KV_MAJOR}.${KV_MINOR}"
 
@@ -30,4 +31,3 @@ UNIPATCH_LIST="${DISTDIR}/patch-${K_BRANCH_ID}-${CK_EXTRAVERSION}.xz
 	"${FILESDIR}"/funtoo.patch"
 
 UNIPATCH_STRICTORDER="yes"
-
