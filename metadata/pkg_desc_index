@@ -1,1 +1,1 @@
-sys-kernel/ck-sources 5.6.11: Gentoo's genpatches for Linux , with Con Kolivas' MuQSS scheduler and patchset
+sys-kernel/ck-sources 5.6.11 5.6.13: Gentoo's genpatches for Linux , with Con Kolivas' MuQSS scheduler and patchset
