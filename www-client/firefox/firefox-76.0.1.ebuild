@@ -131,7 +131,7 @@ RDEPEND="${CDEPEND}
 DEPEND="${CDEPEND}
 	app-arch/zip
 	app-arch/unzip
-	>=dev-util/cbindgen-0.13.0
+	>=dev-util/cbindgen-0.12.1
 	>=net-libs/nodejs-10.19.0
 	>=sys-devel/binutils-2.30
 	sys-apps/findutils
@@ -161,7 +161,7 @@ DEPEND="${CDEPEND}
 			>=media-sound/apulse-0.1.12-r4[sdk]
 		)
 	)
-	>=virtual/rust-1.41.0
+	>=virtual/rust-1.37.0
 	wayland? ( >=x11-libs/gtk+-3.11:3[wayland] )
 	amd64? ( >=dev-lang/yasm-1.1 virtual/opengl )
 	x86? ( >=dev-lang/yasm-1.1 virtual/opengl )
