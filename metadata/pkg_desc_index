@@ -1,1 +1,2 @@
 sys-kernel/ck-sources 5.6.11 5.6.14 5.6.15: Gentoo's genpatches for Linux , with Con Kolivas' MuQSS scheduler and patchset
+sys-process/glances 3.1.4.1: CLI curses based monitoring tool
