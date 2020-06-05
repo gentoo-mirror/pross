@@ -6,4 +6,4 @@ net-libs/nghttp2 1.39.2 1.40.0: HTTP/2 C Library
 net-libs/nodejs 10.16.3 12.9.0 12.16.1: A JavaScript runtime built on Chrome's V8 JavaScript engine
 sys-kernel/ck-sources 5.6.15: Linux , with Con Kolivas' MuQSS scheduler and patchset
 sys-process/glances 3.1.4.1: CLI curses based monitoring tool
-www-client/ungoogled-chromium 81.0.4044.138_p1 83.0.4103.61_p1: Modifications to Chromium for removing Google integration and enhancing privacy
+www-client/ungoogled-chromium 81.0.4044.138_p1 83.0.4103.61_p1 83.0.4103.97_p1: Modifications to Chromium for removing Google integration and enhancing privacy
