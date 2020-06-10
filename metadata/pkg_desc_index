@@ -4,6 +4,6 @@ dev-util/gn 0.1463 0.1544 0.1583 0.1726: GN is a meta-build system that generate
 net-libs/http-parser 2.8.1 2.9.1 2.9.2 2.9.3 99999: HTTP request/response parser for C
 net-libs/nghttp2 1.39.2 1.40.0: HTTP/2 C Library
 net-libs/nodejs 10.16.3 12.9.0 12.16.1: A JavaScript runtime built on Chrome's V8 JavaScript engine
-sys-kernel/ck-sources 5.6.15 5.6.17 5.7.1: Linux , with Con Kolivas' MuQSS scheduler and patchset
+sys-kernel/ck-sources 5.6.15 5.6.17 5.7.1 5.7.2: Linux , with Con Kolivas' MuQSS scheduler and patchset
 sys-process/glances 3.1.4.1: CLI curses based monitoring tool
 www-client/ungoogled-chromium 81.0.4044.138_p1 83.0.4103.61_p1 83.0.4103.97_p1: Modifications to Chromium for removing Google integration and enhancing privacy
