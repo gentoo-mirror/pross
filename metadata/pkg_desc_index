@@ -6,7 +6,7 @@ media-libs/libglvnd 1.1.1.20190313-r1 1.2.0 1.3.1: The GL Vendor-Neutral Dispatc
 net-libs/http-parser 2.8.1 2.9.1 2.9.2 2.9.3 99999: HTTP request/response parser for C
 net-libs/nghttp2 1.39.2 1.40.0: HTTP/2 C Library
 net-libs/nodejs 10.16.3 12.9.0 12.16.1: A JavaScript runtime built on Chrome's V8 JavaScript engine
-sys-kernel/ck-sources 5.6.15 5.6.17 5.7.1 5.7.2 5.7.3 5.7.4: Linux , with Con Kolivas' MuQSS scheduler and patchset
+sys-kernel/ck-sources 5.6.15 5.6.17 5.7.1 5.7.2 5.7.3 5.7.4 5.7.5 5.7.6: Linux , with Con Kolivas' MuQSS scheduler and patchset
 sys-process/glances 3.1.4.1: CLI curses based monitoring tool
-www-client/ungoogled-chromium 83.0.4103.97_p1 83.0.4103.106_p1: Modifications to Chromium for removing Google integration and enhancing privacy
+www-client/ungoogled-chromium 83.0.4103.97_p1 83.0.4103.106_p1 83.0.4103.116_p1: Modifications to Chromium for removing Google integration and enhancing privacy
 x11-libs/libva-intel-media-driver 18.3.0 18.4.1 20.1.1 9999: Intel Media Driver for VAAPI (iHD)
