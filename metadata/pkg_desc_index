@@ -1,2 +1,2 @@
-sys-kernel/ck-sources 5.6.15 5.6.17 5.7.1 5.7.2 5.7.3 5.7.4 5.7.5 5.7.6 5.7.7 5.7.8 5.7.9: Linux , with Con Kolivas' MuQSS scheduler and patchset
+sys-kernel/ck-sources 5.6.15 5.6.17 5.7.1 5.7.2 5.7.3 5.7.4 5.7.5 5.7.6 5.7.7 5.7.8 5.7.9 5.7.10: Linux , with Con Kolivas' MuQSS scheduler and patchset
 sys-process/glances 3.1.4.1: CLI curses based monitoring tool
