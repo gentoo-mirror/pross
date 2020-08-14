@@ -1,3 +1,4 @@
 sys-devel/gcc 10.2.0: The GNU Compiler Collection
 sys-kernel/ck-sources 5.7.13 5.7.14: Linux , with Con Kolivas' MuQSS scheduler and patchset
+sys-kernel/zen-sources 5.8.1: Liquorix sources including the Gentoo patchsets for the 5.8 kernel tree
 sys-process/glances 3.1.4.1: CLI curses based monitoring tool
