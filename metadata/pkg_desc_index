@@ -1,5 +1,5 @@
 media-tv/popcorntime-bin 0.4.4: Watch torrent movies instantly
 sys-devel/gcc 10.2.0: The GNU Compiler Collection
-sys-kernel/ck-sources 5.9.3 5.9.4: Linux , with Con Kolivas' MuQSS scheduler and patchset
+sys-kernel/ck-sources 5.9.3 5.9.4 5.9.6: Linux , with Con Kolivas' MuQSS scheduler and patchset
 sys-process/bashtop 0.9.25: Resource monitor that shows usage and stats
 sys-process/glances 3.1.4.1: CLI curses based monitoring tool
