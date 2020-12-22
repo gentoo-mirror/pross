@@ -1,4 +1,4 @@
-DEFINED_PHASES=compile install postinst postrm preinst prepare setup test unpack
+DEFINED_PHASES=compile configure install postinst postrm preinst prepare setup test unpack
 DEPEND=!build? ( sys-apps/sed >=sys-devel/binutils-2.11.90.0.31 )
 DESCRIPTION=Linux , with Con Kolivas' MuQSS scheduler and patchset
 EAPI=6
@@ -11,4 +11,4 @@ RESTRICT=binchecks strip
 SLOT=5.9.14
 SRC_URI=https://www.kernel.org/pub/linux/kernel/v5.x/patch-5.9.14.xz https://www.kernel.org/pub/linux/kernel/v5.x/linux-5.9.tar.xz http://ck.kolivas.org/patches/5.0/5.9/5.9-ck1/patch-5.9-ck1.xz
 _eclasses_=eapi7-ver	f9ec87e93172b25ce65a85303dc06964	estack	d780995dc525ff7e6a2c4c043ffec242	kernel-2	1543bf4cdf0b10a5bf32d15ac7b8aa48	multilib	d410501a125f99ffb560b0c523cd3d1e	toolchain-funcs	605c126bed8d87e4378d5ff1645330cb
-_md5_=b759582cd8f2338054a4076c1d52a31f
+_md5_=6197e7b81eba96d91083f82ced839996
