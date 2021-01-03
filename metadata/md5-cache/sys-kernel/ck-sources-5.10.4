@@ -6,9 +6,9 @@ HOMEPAGE=https://www.kernel.org/ https://wiki.gentoo.org/wiki/Kernel http://kern
 IUSE=symlink build
 KEYWORDS=~amd64 ~x86
 LICENSE=GPL-2
-RDEPEND=!build? ( dev-lang/perl sys-devel/bc sys-devel/bison sys-devel/flex sys-devel/make >=sys-libs/ncurses-5.2 virtual/libelf virtual/pkgconfig )
+RDEPEND=virtual/linux-sources !build? ( dev-lang/perl sys-devel/bc sys-devel/bison sys-devel/flex sys-devel/make >=sys-libs/ncurses-5.2 virtual/libelf virtual/pkgconfig )
 RESTRICT=binchecks strip
 SLOT=5.10.4
 SRC_URI=https://www.kernel.org/pub/linux/kernel/v5.x/patch-5.10.4.xz https://www.kernel.org/pub/linux/kernel/v5.x/linux-5.10.tar.xz http://ck.kolivas.org/patches/5.0/5.10/5.10-ck1/patch-5.10-ck1.xz
 _eclasses_=eapi7-ver	f9ec87e93172b25ce65a85303dc06964	estack	055c42df72f76a4f45ec92b35e83cd56	kernel-2	29b0ddf528a34e7e8c7c179cfbdb5c26	multilib	d410501a125f99ffb560b0c523cd3d1e	toolchain-funcs	605c126bed8d87e4378d5ff1645330cb
-_md5_=0318a9e0c44def3b089e074472aa31c0
+_md5_=c966d2837574a67e77e7e90afc74532f
