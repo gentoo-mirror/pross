@@ -1,6 +1,6 @@
 media-tv/hypnotix-bin 1.1: Hypnotix is an IPTV streaming application with support for live TV, movies and series.
 media-tv/popcorntime-bin 0.4.4: Watch torrent movies instantly
 sys-devel/gcc 9.3.0-r1: The GNU Compiler Collection
-sys-kernel/ck-sources 5.10.9: Linux 5.10.9, with Con Kolivas' MuQSS scheduler and patchset
+sys-kernel/ck-sources 5.10.10: Linux 5.10.10, with Con Kolivas' MuQSS scheduler and patchset
 sys-process/bashtop 0.9.25: Resource monitor that shows usage and stats
 virtual/linux-sources 5: Virtual for Linux kernel sources
