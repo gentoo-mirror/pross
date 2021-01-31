@@ -1,6 +1,21 @@
+app-crypt/gnupg 1.4.21 2.2.10 2.2.12 2.2.14 2.2.15 2.2.15-r1 2.2.16 2.2.16-r1 2.2.25: The GNU Privacy Guard, a GPL OpenPGP implementation
+app-text/mupdf 1.14.0-r2 1.14.0-r3 1.15.0 1.18.0-r2: A lightweight PDF viewer and toolkit written in portable C
+dev-lang/mujs 1.0.5 1.0.9: An embeddable Javascript interpreter in C.
+media-libs/freeglut 2.8.1-r1 3.0.0 3.2.1: A free OpenGL utility toolkit, the open-sourced alternative to the GLUT library
 media-tv/hypnotix-bin 1.1: Hypnotix is an IPTV streaming application with support for live TV, movies and series.
 media-tv/popcorntime-bin 0.4.4: Watch torrent movies instantly
-sys-devel/gcc 9.3.0-r1: The GNU Compiler Collection
+net-libs/libtirpc 1.2.6: Transport Independent RPC library (SunRPC replacement)
+net-misc/iputils 20121221-r1 20121221-r2 20171016_pre-r1 20190709-r1: Network monitoring tools including ping and ping6
+net-print/cups-filters 1.21.6 1.22.6 1.23.0 1.25.0 1.28.3 9999: Cups filters
+sys-apps/iproute2 4.14.1-r2 4.17.0-r1 4.19.0-r1 4.20.0 5.0.0 5.1.0 5.7.0 9999: kernel routing and traffic control utilities
+sys-apps/kbd 2.3.0-r1: Keyboard and console utilities
+sys-apps/openrc 0.40.2-r2 0.41.2-r2 0.41.2-r3: OpenRC manages the services, startup and shutdown of a host
+sys-devel/binutils 2.34-r2: Tools necessary to build programs
+sys-devel/gcc 9.3.0 10.2.0-r5: The GNU Compiler Collection
+sys-fs/squashfs-tools 4.3-r2 4.3_p7 4.3_p11 4.3_p11-r1 4.3_p12 4.4_p1 9999: tools to create and extract Squashfs filesystems
 sys-kernel/ck-sources 5.10.10: Linux 5.10.10, with Con Kolivas' MuQSS scheduler and patchset
+sys-libs/gdbm 1.13-r2 1.14.1 1.17 1.18 1.18.1 1.18.1-r1: Standard GNU database libraries
+sys-libs/gpm 1.20.7-r2 1.20.7-r3 1.20.7-r4 1.20.7-r5: Console-based mouse driver
 sys-process/bashtop 0.9.25: Resource monitor that shows usage and stats
 virtual/linux-sources 5: Virtual for Linux kernel sources
+x11-libs/libva-intel-driver 2.4.0 2.4.1: HW video decode support for Intel integrated graphics

@@ -2,3 +2,22 @@
 # Please add your descriptions to your package's metadata.xml ONLY.
 # * generated automatically using pmaint *
 
+app-crypt/gnupg:mta - Build mta support using virtual/mta.
+app-crypt/gnupg:smartcard - Build scdaemon software. Enables usage of OpenPGP cards. For other type of smartcards, try app-crypt/gnupg-pkcs11-scd. Bring in dev-libs/libusb as a dependency; enable scdaemon.
+app-crypt/gnupg:tofu - Enable support for Trust on First use trust model; requires dev-db/sqlite.
+app-crypt/gnupg:tools - Install extra tools (including gpgsplit and gpg-zip).
+app-crypt/gnupg:usb - Build direct CCID access for scdaemon; requires dev-libs/libusb.
+app-crypt/gnupg:user-socket - try a socket directory which is not removed by init manager at session end
+app-crypt/gnupg:wks-server - Install the wks-server
+net-misc/iputils:SECURITY_HAZARD - Allow non-root users to flood (ping -f). This is generally a very bad idea.
+net-print/cups-filters:foomatic - Build the included foomatic-rip printer driver. Strongly recommended.
+net-print/cups-filters:ipp_autosetup - Let cups-browsed automatically set up IPP network printers by default.
+net-print/cups-filters:pclm - Enable PCLm support
+sys-apps/iproute2:berkdb - build programs that use berkdb (just arpd)
+sys-apps/iproute2:elf - support loading eBPF programs from ELFs (e.g. LLVM's eBPF backend)
+sys-apps/iproute2:iptables - include support for iptables filtering
+sys-apps/iproute2:minimal - only install ip and tc programs, without eBPF support
+sys-fs/squashfs-tools:lz4 - Enable support for LZ4 compression using app-arch/lz4
+sys-fs/squashfs-tools:xz - Enable support for XZ ("LZMA2") compression using app-arch/xz-utils
+sys-libs/gdbm:berkdb - enable compatibility layer for UNIX-like dbm and ndbm interfaces
+sys-libs/gdbm:exporter - enable gdbmexport binary for exporting data from gdbm-1.8 databases into gdbm-1.9
