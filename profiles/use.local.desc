@@ -10,6 +10,15 @@ app-crypt/gnupg:usb - Build direct CCID access for scdaemon; requires dev-libs/l
 app-crypt/gnupg:user-socket - try a socket directory which is not removed by init manager at session end
 app-crypt/gnupg:wks-server - Install the wks-server
 net-misc/iputils:SECURITY_HAZARD - Allow non-root users to flood (ping -f). This is generally a very bad idea.
+net-misc/openssh:X509 - Adds support for X.509 certificate authentication
+net-misc/openssh:bindist - Disable EC/RC5 algorithms in OpenSSL for patent reasons.
+net-misc/openssh:hpn - Enable high performance ssh
+net-misc/openssh:ldap - Add support for storing SSH public keys in LDAP
+net-misc/openssh:ldns - Use LDNS for DNSSEC/SSHFP validation.
+net-misc/openssh:livecd - Enable root password logins for live-cd environment.
+net-misc/openssh:ssh1 - Support the legacy/weak SSH1 protocol
+net-misc/openssh:ssl - Enable additional crypto algorithms via OpenSSL
+net-misc/openssh:xmss - Enable XMSS post-quantum authentication algorithm
 net-print/cups-filters:foomatic - Build the included foomatic-rip printer driver. Strongly recommended.
 net-print/cups-filters:ipp_autosetup - Let cups-browsed automatically set up IPP network printers by default.
 net-print/cups-filters:pclm - Enable PCLm support
@@ -19,5 +28,14 @@ sys-apps/iproute2:iptables - include support for iptables filtering
 sys-apps/iproute2:minimal - only install ip and tc programs, without eBPF support
 sys-fs/squashfs-tools:lz4 - Enable support for LZ4 compression using app-arch/lz4
 sys-fs/squashfs-tools:xz - Enable support for XZ ("LZMA2") compression using app-arch/xz-utils
+sys-libs/binutils-libs:64-bit-bfd - Support 64-bit targets even on 32-bit hosts (is ignored on 64-bit hosts)
+sys-libs/binutils-libs:multitarget - Enable all possible targets in libbfd
 sys-libs/gdbm:berkdb - enable compatibility layer for UNIX-like dbm and ndbm interfaces
 sys-libs/gdbm:exporter - enable gdbmexport binary for exporting data from gdbm-1.8 databases into gdbm-1.9
+sys-libs/glibc:compile-locales - build *all* locales in src_install; this is generally meant for stage building only as it ignores /etc/locale.gen file and can be pretty slow
+sys-libs/glibc:debug - When USE=hardened, allow fortify/stack violations to dump core (SIGABRT) and not kill self (SIGKILL)
+sys-libs/glibc:gd - build memusage and memusagestat tools
+sys-libs/glibc:nscd - Build, and enable support for, the Name Service Cache Daemon
+sys-libs/glibc:rpc - Enable obsolete RPC/NIS layers
+sys-libs/glibc:suid - Make internal pt_chown helper setuid -- not needed if using Linux and have /dev/pts mounted with gid=5
+sys-libs/glibc:systemtap - enable systemtap static probe points
