@@ -2,13 +2,13 @@
 
 EAPI="6"
 ETYPE="sources"
-KEYWORDS="~amd64 ~x86"
+KEYWORDS="amd64 x86"
 
 HOMEPAGE="http://kernel.kolivas.org/"
 
 K_SECURITY_UNSUPPORTED="1"
 
-CK_EXTRAVERSION="ck{{ck_extraversion}}"
+CK_EXTRAVERSION="ck1"
 
 inherit kernel-2
 detect_version
@@ -16,18 +16,18 @@ detect_arch
 
 RDEPEND="virtual/linux-sources"
 
-DESCRIPTION="Linux {{version}}, with Con Kolivas' MuQSS scheduler and patchset"
+DESCRIPTION="Linux 5.11.3, with Con Kolivas' MuQSS scheduler and patchset"
 
-K_BRANCH_ID="{{branch_id}}"
+K_BRANCH_ID="5.11"
 
 SRC_URI="
-	{{artifacts[1].src_uri}}
-	{{artifacts[2].src_uri}}
-	{{artifacts[0].src_uri}}
+	http://ck.kolivas.org/patches/5.0/5.11/5.11-ck1/patch-5.11-ck1.xz
+	https://mirrors.edge.kernel.org/pub/linux/kernel/v5.x/linux-5.11.tar.xz
+	https://mirrors.edge.kernel.org/pub/linux/kernel/v5.x/patch-5.11.3.xz
 	"
 
 UNIPATCH_LIST="
-        ${DISTDIR}/patch-${K_BRANCH_ID}-${CK_EXTRAVERSION}.xz
+	${DISTDIR}/patch-${K_BRANCH_ID}-${CK_EXTRAVERSION}.xz
 	${FILESDIR}/${CK_EXTRAVERSION}-revert-version.patch
 	"
 
