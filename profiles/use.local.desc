@@ -2,3 +2,5 @@
 # Please add your descriptions to your package's metadata.xml ONLY.
 # * generated automatically using pmaint *
 
+sys-libs/gdbm:berkdb - enable compatibility layer for UNIX-like dbm and ndbm interfaces
+sys-libs/gdbm:exporter - enable gdbmexport binary for exporting data from gdbm-1.8 databases into gdbm-1.9

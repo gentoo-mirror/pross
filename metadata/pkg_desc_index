@@ -1,4 +1,5 @@
 sys-devel/gcc 9.3.0 10.2.0-r5: The GNU Compiler Collection
 sys-kernel/ck-sources 5.11.3: Linux 5.11.3, with Con Kolivas' MuQSS scheduler and patchset
+sys-libs/gdbm 1.13-r2 1.14.1 1.17 1.18 1.18.1 1.18.1-r1: Standard GNU database libraries
 sys-process/bashtop 0.9.25: Resource monitor that shows usage and stats
 virtual/linux-sources 5: Virtual for Linux kernel sources
