@@ -1,3 +1,1 @@
-sys-kernel/ck-sources 5.11.3: Linux 5.11.3, with Con Kolivas' MuQSS scheduler and patchset
-sys-libs/gdbm 1.13-r2 1.14.1 1.17 1.18 1.18.1 1.18.1-r1: Standard GNU database libraries
 virtual/linux-sources 5: Virtual for Linux kernel sources
